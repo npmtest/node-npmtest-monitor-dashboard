@@ -1,6 +1,6 @@
 # npmtest-monitor-dashboard
 
-#### test coverage for  [monitor-dashboard (v0.6.7)](http://github.com/lorenwest/monitor-dashboard/)  [![npm package](https://img.shields.io/npm/v/npmtest-monitor-dashboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-monitor-dashboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-monitor-dashboard.svg)](https://travis-ci.org/npmtest/node-npmtest-monitor-dashboard)
+#### basic test coverage for  [monitor-dashboard (v0.6.7)](http://github.com/lorenwest/monitor-dashboard/)  [![npm package](https://img.shields.io/npm/v/npmtest-monitor-dashboard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-monitor-dashboard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-monitor-dashboard.svg)](https://travis-ci.org/npmtest/node-npmtest-monitor-dashboard)
 
 #### Dashboard UI for node monitor
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-monitor-dashboard/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-monitor-dashboard/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-monitor-dashboard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-monitor-dashboard/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-monitor-dashboard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-monitor-dashboard/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-monitor-dashboard/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-monitor-dashboard/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-monitor-dashboard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-monitor-dashboard/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-monitor-dashboard/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-monitor-dashboard/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
         "start": "node monitor",
         "test": "grunt test"
     },
-    "version": "0.6.7"
+    "version": "0.6.7",
+    "bin": {}
 }
 ```
 
